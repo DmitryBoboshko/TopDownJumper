@@ -140,6 +140,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 551286445}
     m_Modifications:
+    - target: {fileID: 2411694184126490933, guid: f41e4c168d1cb8c4e85171447d147816,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -164
+      objectReference: {fileID: 0}
     - target: {fileID: 5437773470848257214, guid: f41e4c168d1cb8c4e85171447d147816,
         type: 3}
       propertyPath: m_Pivot.x
@@ -255,6 +260,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5534916760972161645, guid: f41e4c168d1cb8c4e85171447d147816,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -164
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f41e4c168d1cb8c4e85171447d147816, type: 3}
 --- !u!114 &300897603 stripped
@@ -293,49 +303,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &453776064
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 453776066}
-  - component: {fileID: 453776065}
-  m_Layer: 0
-  m_Name: EnemiesPool
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &453776065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 453776064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1a3f6a6c0298ff408acb4af297f444f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &453776066
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 453776064}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &468964054 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2138867676095462659, guid: b4c572a17ae74774dabb207e5244c9d2,
@@ -1437,7 +1404,7 @@ PrefabInstance:
     - target: {fileID: 2527419990365253890, guid: 7b3a011d534e25b47a6476a7e4891bda,
         type: 3}
       propertyPath: m_Name
-      value: Game Session
+      value: GameSession
       objectReference: {fileID: 0}
     - target: {fileID: 2527419990365253891, guid: 7b3a011d534e25b47a6476a7e4891bda,
         type: 3}

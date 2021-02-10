@@ -40,14 +40,13 @@ public class PlatformGroupController : MonoBehaviour
 
             // Attach an enemy here
             // AttachEnemyToPlatform(enemy, platformGroup.Find("Platform"));
-            GameObject enemy = enemiesPool.transform.GetComponent<EnemiesPool>().getEnemyFromPool();
-            if (enemy != null)
-            {
-                enemy.transform.position = new Vector3(Random.Range(-2.5f, 2.5f) ,platformSupport.transform.position.y);
-                enemy.transform.SetParent(this.transform);
-                enemy.transform.GetComponent<Enemy>().AttachEnemyToPlatform(transform.Find("Platform").gameObject);
-            };
-
+            //GameObject enemy = enemiesPool.transform.GetComponent<EnemiesPool>().getEnemyFromPool();
+            //if (enemy != null)
+            //{
+            //    enemy.transform.position = new Vector3(Random.Range(-2.5f, 2.5f) ,platformSupport.transform.position.y);
+            //    enemy.transform.SetParent(this.transform);
+            //    enemy.transform.GetComponent<Enemy>().AttachEnemyToPlatform(transform.Find("Platform").gameObject);
+            //};
         }
     }
 }

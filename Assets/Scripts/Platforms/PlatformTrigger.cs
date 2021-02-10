@@ -39,11 +39,5 @@ public class PlatformTrigger : MonoBehaviour
             DoIncrementScore();
 
         };
-
-        GameObject enemy = platformGroup.transform.Find("Enemy(Clone)").gameObject;
-        if (enemy != null)
-        {
-            platformGroup.transform.GetComponent<PlatformGroupController>().enemiesPool.GetComponent<EnemiesPool>().returnEnemyToPool(enemy);
-        }
     }
 }
